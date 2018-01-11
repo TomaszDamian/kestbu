@@ -5,7 +5,7 @@ int blikkljos = 2;
 int takki_stada = HIGH; 
 int blikktimi = 1000; 
 unsigned long lidinn_blikk_timi = 0; // int er bara 16 bita, long er 32 bita
-int blikkljos_stada = HIGH; // viljum viğ byrja meğ blikkljósiğ kveikt eğa slökt?
+int blikkljos_stada = HIGH; // viljum viÃ° byrja meÃ° blikkljÃ³siÃ° kveikt eÃ°a slÃ¶kt?
 
 
 void setup() {
@@ -15,13 +15,13 @@ void setup() {
 }
 
 void loop() {
-  unsigned long timi_nuna = millis(); // millis() skilar fjölda millisekúndna síğan forritiğ byrjaği ağ keyra
+  unsigned long timi_nuna = millis(); // millis() skilar fjÃ¶lda millisekÃºndna sÃ­Ã°an forritiÃ° byrjaÃ°i aÃ° keyra
   
-  if((timi_nuna - lidinn_blikk_timi) >= blikktimi) { // hvernig mætti leysa şetta meğ modulus?
+  if((timi_nuna - lidinn_blikk_timi) >= blikktimi) { 
   	
-    lidinn_blikk_timi = timi_nuna; // geymum núverandi tímatalningu
+    lidinn_blikk_timi = timi_nuna; // geymum nÃºverandi tÃ­matalningu
     
-    if(blikkljos_stada == LOW) { // víxlum stöğunni á ljósunum
+    if(blikkljos_stada == LOW) { // vÃ­xlum stÃ¶Ã°unni Ã¡ ljÃ³sunum
     	blikkljos_stada = HIGH;
     } else {
     	blikkljos_stada = LOW;
