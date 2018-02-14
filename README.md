@@ -10,4 +10,6 @@ Stundum getum við ekki notað delay() fallið og verðum þá að útfæra dela
 ## Servo mótor
 Kóði í [servo.ino](servo.ino)
 ### Tengimynd
-![Servo](/myndir/servo.PNG)
+<p align="center">
+  <img src="/myndir/servo.PNG">
+</p>
