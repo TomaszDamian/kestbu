@@ -8,6 +8,6 @@ Stundum getum við ekki notað delay() fallið og verðum þá að útfæra dela
 ### Tengimynd
 ![delay rás](/myndir/ekkert_delay.PNG)
 ## Servo mótor
-Kóði í [servo.ino]
+Kóði í [servo.ino](servo.ino)
 ### Tengimynd
 ![Servo](/myndir/servo.PNG)
