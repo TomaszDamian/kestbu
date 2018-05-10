@@ -1,6 +1,10 @@
 # Lokaverkefni vor 2018
 ## Eftirlitskerfi
 
+* [Verkefnið](#Verkefnið)
+* [Íhlutir](#Íhlutir)
+* [Dæmi um virkni](#Dæmi-um-virkni)
+
 ### Verkefnið
 Setja á upp öryggiskerfi sem að fylgist með ákveðnu svæði. 
 Hlutverk öryggiskerfisins er að koma í veg fyrir að hundurinn komist í kjötstykkið.
@@ -26,6 +30,8 @@ Til að auka notagildi kerfisins þarf að vera hægt að setja það í handvir
 * Snúrur, viðnám, LED og annað eftir þörfum.
 
 ### Dæmi um virkni
+[Myndband á YouTube](https://youtu.be/GlPTpKY1WhU)
+
 [![Myndband](https://i.ytimg.com/vi/GlPTpKY1WhU/hqdefault.jpg)](https://youtu.be/GlPTpKY1WhU)
 
 
