@@ -1,9 +1,9 @@
 # Lokaverkefni vor 2018
 ## Eftirlitskerfi
 
-* [Verkefnið](#Verkefnið)
-* [Íhlutir](#Íhlutir)
-* [Dæmi um virkni](#Dæmi-um-virkni)
+* [Verkefnið](#verkefnið)
+* [Íhlutir](#íhlutir)
+* [Dæmi um virkni](#dæmi-um-virkni)
 
 ### Verkefnið
 Setja á upp öryggiskerfi sem að fylgist með ákveðnu svæði. 
