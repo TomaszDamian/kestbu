@@ -13,12 +13,15 @@ Til að auka notagildi kerfisins þarf að vera hægt að setja það í handvir
 ### Íhlutir
 * Arduino Uno eða Mega
 * Brauðbretti
-* UltraSonic skanni (sjá kóðadæmi [hér](../sonic.ino)) ![UltraSonic skanni](./myndir/sonic.png)
-* Servo mótor (sjá kóðadæmi [hér](../servo.ino)) ![Servo mótor](./myndir/motor.png)
-* Stýripinni (sjá kóðadæmi [hér](../styripinni.ino)) ![Stýripinni](./myndir/styripinni.png)
+* UltraSonic skanni (sjá kóðadæmi [hér](../sonic.ino)) 
+  ![UltraSonic skanni](./myndir/sonic.png)
+* Servo mótor (sjá kóðadæmi [hér](../servo.ino)) 
+  ![Servo mótor](./myndir/motor.png)
+* Stýripinni (sjá kóðadæmi [hér](../styripinni.ino)) 
+  ![Stýripinni](./myndir/styripinni.png)
 * Snúrur, viðnám, LED og annað eftir þörfum.
 
 ### Dæmi um virkni
-
+[![Myndband](https://i.ytimg.com/vi/GlPTpKY1WhU/hqdefault.jpg)](https://youtu.be/GlPTpKY1WhU)
 
 

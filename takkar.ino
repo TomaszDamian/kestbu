@@ -8,21 +8,21 @@ int takkiSW = 6;
 int takkiA_stada;
 int takkiB_stada;
 
-int takkiSW_stada = HIGH;  // Takkinn er tengdur þannig að hann er alltaf HIGH og verður LOW þegar ýtt er á hann.
-int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvær stöður. Ef staðan er núna HIGH þá hefur síðasta staða þar á undan verið LOW.
-int ljosSW_stada = HIGH; // Hér hefur LED-ið bara tvær stöður kveikt eða slökkt, ef er núna slökkt þá hefur það verið kveikt þar á undan.
+int takkiSW_stada = HIGH;  // Takkinn er tengdur ï¿½annig aï¿½ hann er alltaf HIGH og verï¿½ur LOW ï¿½egar ï¿½tt er ï¿½ hann.
+int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvï¿½r stï¿½ï¿½ur. Ef staï¿½an er nï¿½na HIGH ï¿½ï¿½ hefur sï¿½ï¿½asta staï¿½a ï¿½ar ï¿½ undan veriï¿½ LOW.
+int ljosSW_stada = HIGH; // Hï¿½r hefur LED-iï¿½ bara tvï¿½r stï¿½ï¿½ur kveikt eï¿½a slï¿½kkt, ef er nï¿½na slï¿½kkt ï¿½ï¿½ hefur ï¿½aï¿½ veriï¿½ kveikt ï¿½ar ï¿½ undan.
 
 void setup() {
 	pinMode(ljosA,OUTPUT);
-  	pinMode(takkiA,INPUT);
-  	pinMode(ljosB,OUTPUT);
-  	pinMode(takkiB,INPUT);
-  	pinMode(ljosSW,OUTPUT);
-  	pinMode(takkiSW,INPUT);
+  pinMode(takkiA,INPUT);
+  pinMode(ljosB,OUTPUT);
+  pinMode(takkiB,INPUT);
+  pinMode(ljosSW,OUTPUT);
+  pinMode(takkiSW,INPUT);
 }
 
 void loop() {
-  // Takki A er tengdur þannig að pinni 10 er alltaf með LOW nema þegar ýtt er á takkann þá fær pinni 10 HIGH
+  // Takki A er tengdur ï¿½annig aï¿½ pinni 10 er alltaf meï¿½ LOW nema ï¿½egar ï¿½tt er ï¿½ takkann ï¿½ï¿½ fï¿½r pinni 10 HIGH
   takkiA_stada = digitalRead(takkiA);
   if(takkiA_stada == HIGH) {
   	digitalWrite(ljosA,HIGH);
@@ -30,7 +30,7 @@ void loop() {
   	digitalWrite(ljosA,LOW);
   }
   
-  // Takki B er tengdur þannig að pinni 8 er alltaf með HIGH nema þegar ýtt er á takkann þá fær pinni 8 LOW
+  // Takki B er tengdur ï¿½annig aï¿½ pinni 8 er alltaf meï¿½ HIGH nema ï¿½egar ï¿½tt er ï¿½ takkann ï¿½ï¿½ fï¿½r pinni 8 LOW
   takkiB_stada = digitalRead(takkiB);
   if(takkiB_stada == LOW) {
   	digitalWrite(ljosB,HIGH);
@@ -38,12 +38,12 @@ void loop() {
   	digitalWrite(ljosB,LOW);
   }
   
-  // Takki SW er tengdur eins og Takki B þ.e. er alltaf HIGH nema þegar ýtt er á takkann
+  // Takki SW er tengdur eins og Takki B ï¿½.e. er alltaf HIGH nema ï¿½egar ï¿½tt er ï¿½ takkann
   takkiSW_stada = digitalRead(takkiSW); // Er almennt HIGH
-  // Ef takkiSW er HIGH (sem hann er almennt) og var áður LOW viljum við breyta stöðunni.
-  // Þetta er gert til að breytingin verði þegar við sleppum takkanum.
+  // Ef takkiSW er HIGH (sem hann er almennt) og var ï¿½ï¿½ur LOW viljum viï¿½ breyta stï¿½ï¿½unni.
+  // ï¿½etta er gert til aï¿½ breytingin verï¿½i ï¿½egar viï¿½ sleppum takkanum.
   if(takkiSW_stada == HIGH && takkiSW_stada_adur == LOW) {
-  //if(takkiSW_stada == LOW) {  // prófaðu að afkommenta þessa línu og kommenta í staðin línuna hér fyrir ofan og sjáðu hvort virkar betur.
+  //if(takkiSW_stada == LOW) {  // prï¿½faï¿½u aï¿½ afkommenta ï¿½essa lï¿½nu og kommenta ï¿½ staï¿½in lï¿½nuna hï¿½r fyrir ofan og sjï¿½ï¿½u hvort virkar betur.
     if(ljosSW_stada == HIGH) {
     	ljosSW_stada = LOW;
     } else {

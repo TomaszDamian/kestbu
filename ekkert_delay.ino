@@ -10,8 +10,8 @@ int blikkljos_stada = HIGH; // viljum við byrja með blikkljósið kveikt eða 
 
 void setup() {
 	pinMode(takki, INPUT);
-  	pinMode(takkaljos, OUTPUT);
-  	pinMode(blikkljos, OUTPUT);
+  pinMode(takkaljos, OUTPUT);
+  pinMode(blikkljos, OUTPUT);
 }
 
 void loop() {
