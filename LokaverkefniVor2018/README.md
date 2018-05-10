@@ -2,7 +2,7 @@
 ## Eftirlitskerfi
 
 * [Verkefnið](#verkefnið)
-* [Íhlutir](#íhlutir)
+* [Íhlutir](#Íhlutir)
 * [Dæmi um virkni](#dæmi-um-virkni)
 
 ### Verkefnið
