@@ -32,5 +32,5 @@ void loop () {
     fjarlaegd = 0;
   } 
 
-  Serial.println(cm);
+  Serial.println(fjarlaegd);
 }
