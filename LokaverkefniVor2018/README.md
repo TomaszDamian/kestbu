@@ -14,7 +14,8 @@ Hlutverk öryggiskerfisins er að koma í veg fyrir að hundurinn komist í kjö
 Öryggiskerfið á að virka þannig að það er sett nálægt kjötstykkinu og á svo að skanna umhverfið og bregðast við ef að hundurinn kemur ákveðið nálægt kjötinu.
 Ef hundurinn kemur t.d. innan 30 cm frá kjötinu á skönnunin að stoppa, kveikja á LED peru og jafnvel gefa frá sér hljóð.
 
-Til að auka notagildi kerfisins þarf að vera hægt að setja það í handvirka stillingu og stjórnast þá skönnunin með stýripinna.
+Til að auka notagildi kerfisins þarf að vera hægt að setja það í handvirka stillingu og stjórnast þá skönnunin með stýripinna, þetta mætti virkja með því t.d. að ýta á takkann (SW) á sýripinnanum.
+
 ### Íhlutir
 * Arduino Uno eða Mega
 * Brauðbretti
