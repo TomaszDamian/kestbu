@@ -2,7 +2,7 @@
   VCC tengist í 5V
   Trig tengist í digital pinna.
   Echo tegist í digital pinna.
-  Gnd tengist í gnd.
+  Gnd tengist í GND.
 */
 
 const int TrigPin = 2; 
