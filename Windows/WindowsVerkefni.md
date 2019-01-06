@@ -2,7 +2,7 @@
 ### Engar spurningar.
 
 ## 5.2.1.10 Check for Updates in Windows 10
-### Reflection í lok kaflans.
+### Reflection spurning í lok kaflans.
 
 #### Why is setting up automatic updates important?
 
@@ -35,7 +35,7 @@
 
 #### When the volume was FAT32, there were three tabs. What is the name of the new tab that was added after the volume was converted to NTFS?
 
-### Reflection í lok kaflans.
+### Reflection spurning í lok kaflans.
  
 #### Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
 
@@ -93,7 +93,7 @@
 
 #### What is the result of this action?
 
-### Reflection í lok kaflans.
+### Reflection spurning í lok kaflans.
 
 #### Why is it important for an administrator to understand how to work within the Task Manager?
 
