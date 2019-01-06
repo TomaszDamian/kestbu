@@ -1,35 +1,72 @@
-5.2.1.7 Install Windows 10
+## 5.2.1.7 Install Windows 10
+### Engar spurningar.
 
-5.2.1.10 Check for Updates in Windows 10
+## 5.2.1.10 Check for Updates in Windows 10
+### Refleciton í lok kaflans.
 
-5.2.4.7 Create a Partition in Windows 10
+#### Why is setting up automatic updates important?
 
-6.1.1.5 Task Manager in Windows 10
+## 5.2.4.7 Create a Partition in Windows 10
+### Step 3, liður b.
 
-6.1.1.9 Install Third-Party Software in Windows 10
+#### What type File System is used on the NEW VOLUME (I:)?
 
-6.1.2.3 Create User Accounts in Windows 10
+#### How much Free Space is shown?
 
-6.1.2.5 Configure Browser Settings in Windows 10
+#### What tabs are shown?
 
-6.1.2.12 Manage Virtual Memory in Windows 10
+#### List the tabs found in the NEW VOLUME (I:) Properties window.
 
-6.1.2.14 Device Manager in Windows 10
+### Step 4, liður c.
 
-6.1.2.16 Region and Language Options in Windows 10
+#### What tabs are listed in the ITE Test Document Properties window?
 
-6.1.3.7 Monitor and Manage System Resources in Windows 10
+### Step 6, liður b.
 
-6.1.4.2 Hard Drive Maintenance in Windows 10
+#### What type of File System is used for the ITE (I:) drive?
 
-6.1.4.4 Manage System Files in Windows 10
+#### What are the tabs in the ITE (I:) Properties window?
 
-6.1.5.4 Common CLI Commands in Windows 10
+#### When the volume was FAT32, there were six tabs. What are the names of the new tabs that were added after the volume was converted to NTFS?
 
-6.1.5.6 System Utilities in Windows 10
+### Step 7, liður b.
 
-6.3.1.2 Managing the Startup Folder in Windows 10
+#### What are the tabs in the ITE Test Document Properties window?
 
-6.3.1.5 Task Scheduler in Windows 10
+#### When the volume was FAT32, there were three tabs. What is the name of the new tab that was added after the volume was converted to NTFS?
 
-6.3.1.7 System Restore in Windows 10
+### Reflection í lok kaflans.
+ 
+#### Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
+
+## 6.1.1.5 Task Manager in Windows 10
+
+### 
+
+## 6.1.1.9 Install Third-Party Software in Windows 10
+
+## 6.1.2.3 Create User Accounts in Windows 10
+
+## 6.1.2.5 Configure Browser Settings in Windows 10
+
+## 6.1.2.12 Manage Virtual Memory in Windows 10
+
+## 6.1.2.14 Device Manager in Windows 10
+
+## 6.1.2.16 Region and Language Options in Windows 10
+
+## 6.1.3.7 Monitor and Manage System Resources in Windows 10
+
+## 6.1.4.2 Hard Drive Maintenance in Windows 10
+
+## 6.1.4.4 Manage System Files in Windows 10
+
+## 6.1.5.4 Common CLI Commands in Windows 10
+
+## 6.1.5.6 System Utilities in Windows 10
+
+## 6.3.1.2 Managing the Startup Folder in Windows 10
+
+## 6.3.1.5 Task Scheduler in Windows 10
+
+## 6.3.1.7 System Restore in Windows 10
