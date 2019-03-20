@@ -13,7 +13,7 @@ int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvær stöður. Ef staðan 
 int ljosSW_stada = HIGH; // Hér hefur LED-ið bara tvær stöður, kveikt eða slökkt, ef núna er slökkt þá hefur það verið kveikt þar á undan.
 
 void setup() {
-	pinMode(ljosA,OUTPUT);
+  pinMode(ljosA,OUTPUT);
   pinMode(takkiA,INPUT);
   pinMode(ljosB,OUTPUT);
   pinMode(takkiB,INPUT);
