@@ -8,9 +8,9 @@ int takkiSW = 6;
 int takkiA_stada;
 int takkiB_stada;
 
-int takkiSW_stada = HIGH;  // Takkinn er tengdur �annig a� hann er alltaf HIGH og ver�ur LOW �egar �tt er � hann.
-int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tv�r st��ur. Ef sta�an er n�na HIGH �� hefur s��asta sta�a �ar � undan veri� LOW.
-int ljosSW_stada = HIGH; // H�r hefur LED-i� bara tv�r st��ur kveikt e�a sl�kkt, ef er n�na sl�kkt �� hefur �a� veri� kveikt �ar � undan.
+int takkiSW_stada = HIGH;  // Takkinn er tengdur þannig að hann er alltaf HIGH og verður LOW þegar ýtt er á hann.
+int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvær stöður. Ef staðan er n�na HIGH þá hefur sí'asta staða þar á undan verið LOW.
+int ljosSW_stada = HIGH; // Hér hefur LED-ið bara tvær stöður, kveikt eða slökkt, ef núna er slökkt þá hefur það verið kveikt þar á undan.
 
 void setup() {
 	pinMode(ljosA,OUTPUT);
@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  // Takki A er tengdur �annig a� pinni 10 er alltaf me� LOW nema �egar �tt er � takkann �� f�r pinni 10 HIGH
+  // Takki A er tengdur þannig að pinni 10 er alltaf með LOW nema þegar ýtt er á takkann þá fær pinni 10 HIGH
   takkiA_stada = digitalRead(takkiA);
   if(takkiA_stada == HIGH) {
   	digitalWrite(ljosA,HIGH);
@@ -30,7 +30,7 @@ void loop() {
   	digitalWrite(ljosA,LOW);
   }
   
-  // Takki B er tengdur �annig a� pinni 8 er alltaf me� HIGH nema �egar �tt er � takkann �� f�r pinni 8 LOW
+  // Takki B er tengdur þannig að pinni 8 er alltaf með HIGH nema þegar ýtt er á takkann þá fær pinni 8 LOW
   takkiB_stada = digitalRead(takkiB);
   if(takkiB_stada == LOW) {
   	digitalWrite(ljosB,HIGH);
@@ -38,12 +38,12 @@ void loop() {
   	digitalWrite(ljosB,LOW);
   }
   
-  // Takki SW er tengdur eins og Takki B �.e. er alltaf HIGH nema �egar �tt er � takkann
+  // Takki SW er tengdur eins og Takki B þ.e. er alltaf HIGH nema þegar ýtt er á takkann
   takkiSW_stada = digitalRead(takkiSW); // Er almennt HIGH
-  // Ef takkiSW er HIGH (sem hann er almennt) og var ��ur LOW viljum vi� breyta st��unni.
-  // �etta er gert til a� breytingin ver�i �egar vi� sleppum takkanum.
+  // Ef takkiSW er HIGH (sem hann er almennt) og var áður LOW viljum við breyta stöðunni.
+  // þetta er gert til að breytingin verði þegar við sleppum takkanum.
   if(takkiSW_stada == HIGH && takkiSW_stada_adur == LOW) {
-  //if(takkiSW_stada == LOW) {  // pr�fa�u a� afkommenta �essa l�nu og kommenta � sta�in l�nuna h�r fyrir ofan og sj��u hvort virkar betur.
+  //if(takkiSW_stada == LOW) {  // prófaðu að afkommenta þessa línu og kommenta í staðin línuna hér fyrir ofan og sjáðu hvort virkar betur.
     if(ljosSW_stada == HIGH) {
     	ljosSW_stada = LOW;
     } else {
