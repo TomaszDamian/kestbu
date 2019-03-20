@@ -9,7 +9,7 @@ int takkiA_stada;
 int takkiB_stada;
 
 int takkiSW_stada = HIGH;  // Takkinn er tengdur þannig að hann er alltaf HIGH og verður LOW þegar ýtt er á hann.
-int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvær stöður. Ef staðan er n�na HIGH þá hefur sí'asta staða þar á undan verið LOW.
+int takkiSW_stada_adur = LOW;  // Takkinn hefur bara tvær stöður. Ef staðan er núna HIGH þá hefur sí'asta staða þar á undan verið LOW.
 int ljosSW_stada = HIGH; // Hér hefur LED-ið bara tvær stöður, kveikt eða slökkt, ef núna er slökkt þá hefur það verið kveikt þar á undan.
 
 void setup() {
